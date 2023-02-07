@@ -1,0 +1,13 @@
+sum=0
+i=0
+t=0
+n= int(input("enter a num"))
+while i<=n:
+    if i%2==0:
+       sum=sum+i
+    else:
+        t=t+i
+    i=i+1
+print(sum)
+print(t)
+    
