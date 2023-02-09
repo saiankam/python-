@@ -1,0 +1,12 @@
+i=int(input('enter'))
+if i in range(0,2001):
+    print('Estimated time:25')
+elif i in range(2001,4001):
+    print('Estimated time:35')
+elif i in range(4001,7000):
+    print('Estimated time:45')
+elif i>7000:
+    print("over loaded")
+else:
+    print('invalid input')
+    
